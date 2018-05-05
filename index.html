@@ -68,19 +68,22 @@ var data = [{
             },
             xaxis: {
                 type: 'linear',
+                title: "Median Household Income",
                 zeroline: false
             },
             yaxis: {
                 type: 'linear',
+                title: "SAT's Average",
                 zeroline: false
             },
             zaxis: {
                 type: 'linear',
+                title: "Tuition",
                 zeroline: false
             }
         },
-        title: '3d point clustering',
-        width: 477
+        title: 'Median Household Income, SATs Average, and Tuition 3d point clustering',
+        width: 600
     };
 
     Plotly.newPlot('myDiv', data, layout);
